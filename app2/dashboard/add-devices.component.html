@@ -1,0 +1,63 @@
+<div *ngIf="devices" class="">
+    <h2>Add New Devices</h2>
+  <div class="form-group row pull-right" >
+    <button class="btn btn-primary " (click)="addDevices()">Add Devices</button>
+     <button class="btn btn-default " (click)="goBack()">Back</button>
+  </div>
+  <div class="form-group row">
+    <label for="udid" class="col-xs-2 col-form-label">UDID</label>
+    <div class="col-xs-4">
+      <input  class="form-control" type="text" [(ngModel)]="devices.udid" id="udid" />
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="imsi" class="col-xs-2 col-form-label">imsi</label>
+    <div class="col-xs-4">
+      <input  class="form-control" type="text" [(ngModel)]="devices.imsi" id="imsi" />
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="imei" class="col-xs-2 col-form-label">imei</label>
+    <div class="col-xs-4">
+      <input  class="form-control" type="text" [(ngModel)]="devices.imei" id="imei" />
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="iccid" class="col-xs-2 col-form-label">iccid</label>
+    <div class="col-xs-4">
+      <input  class="form-control" type="text" [(ngModel)]="devices.iccid" id="iccid" />
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="euiccid" class="col-xs-2 col-form-label">euiccid</label>
+    <div class="col-xs-4">
+      <input  class="form-control" type="text" [(ngModel)]="devices.euiccid" id="euiccid" />
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="lastactivity" class="col-xs-2 col-form-label">last activity</label>
+    <div class="col-xs-4">
+      <input  class="form-control" type="text" [(ngModel)]="devices.lastactivity" id="lastactivity" />
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="udid" class="col-xs-2 col-form-label">ip</label>
+    <div class="col-xs-4">
+      <input  class="form-control" type="text" [(ngModel)]="devices.ip" id="ip" />
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="state" class="col-xs-2 col-form-label">state</label>
+    <div class="col-xs-4">
+      <input  class="form-control" type="text" [(ngModel)]="devices.state" id="state" />
+    </div>
+  </div>
+
+
+
+
+
+
+  
+  
+
